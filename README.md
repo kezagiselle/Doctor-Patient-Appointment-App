@@ -4,6 +4,7 @@
 The Doctor-Patient-Appointment App is a healthcare management system designed to simplify interactions between patients and doctors.
 It allows users to:
 
+```bash
 `Register as a patient or doctor`
 
 `Book, manage, and cancel appointments`
@@ -11,6 +12,7 @@ It allows users to:
 `View patient medical history and doctor availability`
 
 `Access and store health data securely`
+```
 
 This project aims to integrate FHIR (Fast Healthcare Interoperability Resources) to make healthcare data interoperable, standardized, and secure, enabling smooth exchange between healthcare systems and APIs.
 
@@ -23,6 +25,7 @@ It provides structured data formats and RESTful APIs that make it easier for hea
 ## 💡 What FHIR Offers for This Project
 ### Feature	Description	Example Use in This App
 
+```bash
 Standardized Data Models -> `FHIR defines clear data models for healthcare entities (Patients, Practitioners, Appointments, Observations, etc.)	Use FHIR’s Patient resource to store patient demographics and contact details`
 
 Interoperability -> `Ensures your app can exchange data with hospitals, EHRs, and other systems	A patient’s data entered here can be accessed by another hospital system using FHIR APIs`
@@ -34,3 +37,4 @@ FHIR RESTful API -> `Provides endpoints for CRUD operations (GET, POST, PUT, DEL
 Modular Resources -> `Each healthcare concept (Patient, Practitioner, Encounter, Appointment, etc.) is an independent resource	Easily manage patients, doctors, and appointments as separate but related entities`
 
 Scalability -> `Works with both mobile and web applications	Enables future integration with telemedicine, wearable devices, or hospital systems`
+```
